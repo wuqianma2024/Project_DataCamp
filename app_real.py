@@ -131,6 +131,16 @@ if select1=='No' and select2=='No' and select3=='No':
             MA Wuqian
             BAE Jin-Young 
             ''')
+    
+    st.write('''
+    /\_/\           ___
+   = o_o =_______    \ \  -Sorry for boring you-
+    __^      __(  \.__) )
+(@)<_____>__(_____)____/
+    
+    
+    
+    ''')
 
 
 

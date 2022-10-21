@@ -123,14 +123,7 @@ if select1=='No' and select2=='No' and select3=='No':
     expander2=st.expander('README: Documents for the app')
     expander2.write('Click the [document](https://efrei365net-my.sharepoint.com/:w:/g/personal/jiaen_liu_efrei_net/EUygwC5hy5FMhWVCGU_0nFYBEW3mEXiyzx1m6tiLtVzT6w?e=NDWfsA) to see the report')
 
-    mem=st.sidebar.expander('Team members of DE1:')
-    mem.write('''Team - DE1: 
-    
-            We are DE1-efrei-pomo2024:
-            LIU Jiaen 
-            MA Wuqian
-            BAE Jin-Young 
-            ''')
+
     
     cat=st.expander('If you want something better')
     st.text(
@@ -155,7 +148,14 @@ if select1=='No' and select2=='No' and select3=='No':
     
 ''')
 
-
+mem=st.sidebar.expander('Team members of DE1:')
+mem.write('''Team - DE1: 
+    
+            We are DE1-efrei-pomo2024:
+            LIU Jiaen 
+            MA Wuqian
+            BAE Jin-Young 
+            ''')
 
 
 

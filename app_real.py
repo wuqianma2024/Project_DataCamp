@@ -137,13 +137,16 @@ if select1=='No' and select2=='No' and select3=='No':
 '''
     
     Here is the connection of the teammember:
+    wuqian.ma@efrei.net
+    jiaen.liu@efrei.net
+    jin-young.bae@efrei.net
     
-    if you have any suggestion,don't hesitate to send us the feedback.
+    if you have any suggestion, don't hesitate to send us the feedback.
     
     
     /\_/\           ___
    = o_o =_______    \ \  
-    __^      __(  \.__) )
+    __^      __(  \.__) ) -Sorry for boring you-
 (@)<_____>__(_____)____/
     
     

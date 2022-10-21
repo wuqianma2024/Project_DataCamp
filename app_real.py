@@ -7,7 +7,7 @@ import seaborn as sns
 #the constant
 path='test_0.010.csv'
 
-#@st.cache(allow_output_mutation=False)
+@st.cache(allow_output_mutation=False)
 def get_dataset(path):
     df=pd.read_csv(path)
     df.drop('Unnamed: 0',axis=1,inplace=True)
@@ -61,8 +61,6 @@ with sp2:
 
 
 select1=st.sidebar.selectbox('Are you interested in the dataset?',('No','head','tail','describe'))
-if select1=='No':
-    st.write('')
 if select1=='head':
     rows=st.slider('choose rows',0,20,5)
     st.write(df.head(rows))
@@ -109,10 +107,12 @@ if select3=='by time':
         st.error('You can only choose two of them to make a heatmap you know')
     if not ck1 and not ck2 and not ck3:
         st.error('Please click the two elements you are interested')
-
 if select3=='by area':
     n=st.slider('choose the number of values after digit',0,3,1)
     get_seaborn_map_plus(df,n)
+   
+if select1=='No' and select2=='No' and select3=='No':
+    st.write('Sorry None of these functions interest you. Maybe you will be interested [link](https://discuss.streamlit.io/t/embedding-a-terminal/9339))
 
 
 

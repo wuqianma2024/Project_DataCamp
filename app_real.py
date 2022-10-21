@@ -135,6 +135,10 @@ if select1=='No' and select2=='No' and select3=='No':
     cat=st.expander('If you want something better')
     cat.write('''
     
+    Here is the connection of the teammember:
+    
+    if you have any suggestion,don't hesitate to send us the feedback.
+    
     
     /\_/\           ___
    = o_o =_______    \ \  -Sorry for boring you-
@@ -142,7 +146,8 @@ if select1=='No' and select2=='No' and select3=='No':
 (@)<_____>__(_____)____/
     
     
-    
+    Thank you for your time!
+    Have a nice day!!!
     ''')
 
 

@@ -133,7 +133,8 @@ if select1=='No' and select2=='No' and select3=='No':
             ''')
     
     cat=st.expander('If you want something better')
-    cat.write('''
+    st.text(
+'''
     
     Here is the connection of the teammember:
     
@@ -148,7 +149,8 @@ if select1=='No' and select2=='No' and select3=='No':
     
     Thank you for your time!
     Have a nice day!!!
-    ''')
+    
+''')
 
 
 

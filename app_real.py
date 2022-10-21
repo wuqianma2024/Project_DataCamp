@@ -125,10 +125,9 @@ if select1=='No' and select2=='No' and select3=='No':
 
     mem=st.sidebar.expander('Team members of DE1:')
     mem.write('''Team - DE1: 
-
-        LIU Jiaen 
-        MA Wuqian
-        BAE Jin-Young ''')
+            LIU Jiaen 
+            MA Wuqian
+            BAE Jin-Young ''')
 
 
 

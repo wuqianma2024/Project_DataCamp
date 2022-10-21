@@ -117,8 +117,8 @@ if select1=='No' and select2=='No' and select3=='No':
     expander=st.expander('See more about source code')
     expander.write('Click this [github link](https://github.com/wuqianma2024/Project_DataCamp) to see the source code of basic analysis  ')
     expander.write('Click [colab Notebook](https://colab.research.google.com/drive/1mtRuIW1jsJBTXSFqJ-3vErGtN9joWntf) to see how we build the basic analysis functions')
-    expander.write('Click this[github link](https://github.com/JinJinB/Datacamp) to see the source code of the shortest path')
-    expander.write('Click [Colab Notebook](https://colab.research.google.com/drive/1Ifsi1afhilcqEsdL1BryThae2PgFB_je?usp=sharing)to see how to build getting the shortest path functions')
+    expander.write('Click this [github link](https://github.com/JinJinB/Datacamp) to see the source code of the shortest path')
+    expander.write('Click [Colab Notebook](https://colab.research.google.com/drive/1Ifsi1afhilcqEsdL1BryThae2PgFB_je?usp=sharing)to see how we build getting the shortest path functions')
 
     expander2=st.expander('README: Documents for the app')
     expander2.write('Click the [document](https://efrei365net-my.sharepoint.com/:w:/g/personal/jiaen_liu_efrei_net/EUygwC5hy5FMhWVCGU_0nFYBEW3mEXiyzx1m6tiLtVzT6w?e=NDWfsA) to see the report')

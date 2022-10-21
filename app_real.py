@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #the constant
-path='test_0.010.csv'
+path='data.csv'
 
 @st.cache(allow_output_mutation=False)
 def get_dataset(path):

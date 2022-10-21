@@ -115,10 +115,10 @@ if select3=='by area':
 if select1=='No' and select2=='No' and select3=='No':
     st.write('Sorry None of these functions interest you. Maybe you will be interested [link](https://jinjinb-datacamp-project-8cdse1.streamlitapp.com)')
     expander=st.expander('See more about source code')
-    expander.write('Click [Here](https://github.com/wuqianma2024/Project_DataCamp) to see the source code of the page as overall data analysis in github. ')
-    expander.write('Click [Here](https://colab.research.google.com/drive/1mtRuIW1jsJBTXSFqJ-3vErGtN9joWntf) to see the colab notebook to build the function as basic analysis of data')
-    expander.write('Click[Here](https://github.com/JinJinB/Datacamp) to see the source code of the page as choosing point from a map and see the time spentin github')
-    expander.write('Click [Here](https://colab.research.google.com/drive/1Ifsi1afhilcqEsdL1BryThae2PgFB_je?usp=sharing) for the colab notebook to build this function as choosing points and see the shortest way')
+    expander.write('Click this [github link](https://github.com/wuqianma2024/Project_DataCamp) to see the source code of basic analysis  ')
+    expander.write('Click [colab Notebook](https://colab.research.google.com/drive/1mtRuIW1jsJBTXSFqJ-3vErGtN9joWntf) to see how we build the basic analysis functions')
+    expander.write('Click this[github link](https://github.com/JinJinB/Datacamp) to see the source code of the shortest path')
+    expander.write('Click [Colab Notebook](https://colab.research.google.com/drive/1Ifsi1afhilcqEsdL1BryThae2PgFB_je?usp=sharing)to see how to build getting the shortest path functions')
 
     expander2=st.expander('README: Documents for the app')
     expander2.write('Click the [document](https://efrei365net-my.sharepoint.com/:w:/g/personal/jiaen_liu_efrei_net/EUygwC5hy5FMhWVCGU_0nFYBEW3mEXiyzx1m6tiLtVzT6w?e=NDWfsA) to see the report')
@@ -141,7 +141,7 @@ if select1=='No' and select2=='No' and select3=='No':
     jiaen.liu@efrei.net
     jin-young.bae@efrei.net
     
-    if you have any suggestion, don't hesitate to send us the feedback.
+    if you have any suggestions, don't hesitate to send us the feedback.
     
     
     /\_/\           ___

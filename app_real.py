@@ -141,7 +141,7 @@ if select1=='No' and select2=='No' and select3=='No':
     
     
     /\_/\           ___
-   = o_o =_______    \ \  -Sorry for boring you-
+   = o_o =_______    \ \  
     __^      __(  \.__) )
 (@)<_____>__(_____)____/
     

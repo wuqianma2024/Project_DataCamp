@@ -49,9 +49,9 @@ def get_streamlit_map_frame(df):
     df=pd.DataFrame({'lat':df['latitude'],'lon':df['longitude']})
     return df
 
-#the constant
+
 df=get_dataset(path)
-path='test.csv'
+
 
 #the font end
 sp1,sp2,sp3=st.columns(3)
@@ -61,10 +61,11 @@ with sp2:
 
 
 
-button1=st.sidebar.button('load dataset')
+button1=st.sidebar.button('Check the traffic congestion by select points on map!')
 if button1:
-    st.success('dataset is loaded!:sunglasses: Have fun!')
-select1=st.sidebar.selectbox('Are you interested in the dataset?',('No','head','tail','describe'))
+    st.success('Click the [link](https://www.myefrei.fr/portal/student/moodle-courses)!:sunglasses: Have fun!')
+
+    select1=st.sidebar.selectbox('Are you interested in the dataset?',('No','head','tail','describe'))
 if select1=='No':
     st.write('')
 if select1=='head':

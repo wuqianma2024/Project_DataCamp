@@ -132,7 +132,7 @@ if select1=='No' and select2=='No' and select3=='No':
             BAE Jin-Young 
             ''')
     
-    st.write('''
+    st.markdown('''
     
     
     /\_/\           ___

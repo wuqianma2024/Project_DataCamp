@@ -120,7 +120,8 @@ if select1=='No' and select2=='No' and select3=='No':
     expander.write('Click[Here](https://github.com/JinJinB/Datacamp) to see the source code of the page as choosing point from a map and see the time spentin github')
     expander.write('Click [Here](https://colab.research.google.com/drive/1Ifsi1afhilcqEsdL1BryThae2PgFB_je?usp=sharing) for the colab notebook to build this function as choosing points and see the shortest way')
 
-
+    expander2=st.expander('README: Documents for the app')
+    expander2.write('Click the [document](https://efrei365net-my.sharepoint.com/:w:/g/personal/jiaen_liu_efrei_net/EUygwC5hy5FMhWVCGU_0nFYBEW3mEXiyzx1m6tiLtVzT6w?e=NDWfsA) to see the report')
 
 
 

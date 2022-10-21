@@ -7,7 +7,7 @@ import seaborn as sns
 #the constant
 path='data.csv'
 
-#@st.cache(allow_output_mutation=False)
+@st.cache(allow_output_mutation=False)
 def get_dataset(path):
     df=pd.read_csv(path)
     df.drop('Unnamed: 0',axis=1,inplace=True)

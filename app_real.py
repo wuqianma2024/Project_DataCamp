@@ -59,7 +59,7 @@ sp1,sp2,sp3=st.columns(3)
 with sp2:
     st.title('WELCOME')
 
-
+st.sidebar.title('Basic Data analysis')
 
 select1=st.sidebar.selectbox('Are you interested in the dataset?',('No','head','tail','describe'))
 if select1=='head':

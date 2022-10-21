@@ -60,12 +60,7 @@ with sp2:
 
 
 
-
-button1=st.sidebar.button('Check the traffic congestion by select points on map!')
-if button1:
-    st.success('Click the [link](https://www.myefrei.fr/portal/student/moodle-courses)!:sunglasses: Have fun!')
-
-    select1=st.sidebar.selectbox('Are you interested in the dataset?',('No','head','tail','describe'))
+select1=st.sidebar.selectbox('Are you interested in the dataset?',('No','head','tail','describe'))
 if select1=='No':
     st.write('')
 if select1=='head':

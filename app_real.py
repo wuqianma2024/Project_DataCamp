@@ -61,7 +61,7 @@ with sp2:
 
 st.sidebar.title('Basic Data analysis')
 
-select1=st.sidebar.selectbox('Are you interested in the dataset?',('No','head','tail','describe'))
+select1=st.sidebar.selectbox('Would you like to see the raw dataset?',('No','head','tail','describe'))
 if select1=='head':
     rows=st.slider('choose rows',0,20,5)
     st.write(df.head(rows))
@@ -71,7 +71,7 @@ if select1=='tail':
 if select1=='describe':
     st.write(df.describe())
 
-select2=st.sidebar.selectbox('Are you interested in the traffic in map every seconds?',('No','Yes'))
+select2=st.sidebar.selectbox('Would you like to see the traffic in map every seconds?',('No','Yes'))
 if select2=='Yes':
     day=st.select_slider('select the day',get_unique_value(df,'dom'))
     hour=st.select_slider('select the hour',get_unique_value(df,'hour'))
@@ -80,7 +80,7 @@ if select2=='Yes':
     st.write('if you think the pointa are small, that is normal. this is a sample after all')
     st.map(get_streamlit_map_frame(data))
 
-select3=st.sidebar.selectbox('Are you interested in the seaboen',('No','by time','by area'))
+select3=st.sidebar.selectbox('Would you like to see the heatmap?',('No','by time','by area'))
 if select3=='by time':
     c1,c2,c3=st.columns(3)
     with c1:
